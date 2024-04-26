@@ -17,7 +17,7 @@ public class HotKey {
     private static final String RULE_TYPE_PATTERN = "pattern";
 
     private TopK topK;
-     ILocalCache localCache;
+    private ILocalCache localCache;
     private final Option option;
     private List<CacheRule> whitelist;
     private List<CacheRule> blacklist;
